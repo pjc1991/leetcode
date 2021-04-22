@@ -1,10 +1,11 @@
+package BestTimeToBuyAndSell;
 import java.util.Arrays;
 
 public class BestTimeToBuyAndSell {
     public static void main(String[] args) {
         int[] prices = {7,1,5,3,6,4};
         printPrices(prices);
-        SolutionStock solution = new SolutionStock();
+        Solution solution = new Solution();
         System.out.println(solution.maxProfit(prices));
 
 
@@ -17,7 +18,7 @@ public class BestTimeToBuyAndSell {
     }
 }
 
-class SolutionStock {
+class Solution {
     public int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;

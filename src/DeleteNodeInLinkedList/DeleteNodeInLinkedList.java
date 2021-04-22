@@ -1,3 +1,4 @@
+package DeleteNodeInLinkedList;
 public class DeleteNodeInLinkedList {
     public static void main(String[] args) {
 

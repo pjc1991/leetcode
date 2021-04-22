@@ -1,10 +1,11 @@
+package FirstBadVersion;
 
 public class FirstBadVersion {
     public static void main(String[] args) {
 
         int badVersion = 1702766719;
         int n = 2126753390;
-        SolutionFirstBadVersion solution = new SolutionFirstBadVersion();
+        Solution solution = new Solution();
         solution.badVersion = badVersion;
 
         int answer = solution.firstBadVersion(n);
@@ -23,7 +24,7 @@ class VersionControl{
     
     
 }
-class SolutionFirstBadVersion extends VersionControl {
+class Solution extends VersionControl {
     public int firstBadVersion(int n) {
         long begin = 0;
         long end = n;
